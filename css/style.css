@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+
+}
+ul, a{
+    text-decoration: none;
+    color: #111;
+    list-style: none;
+}
+ul a:hover {
+color: #111;
+}
+
+/* Header */
+
+
+.navbar-toggler:focus {
+    box-shadow: none!important;
+}
+#resizingSelectTag {
+    width: 70px;
+} 
+    
+#selectTagWidth{
+    display : none;
+} 
+.search-bar{
+    padding-right: 20rem;
+}
+
+.register-btn{
+    position: relative;
+}
+.register-btn::before{
+    content: "";
+    position: absolute;
+    border-left:1px solid rgba(0,0,0,.5);
+    top:0;
+    left:-13px;
+    bottom:0;
+    right:0;
+}
+.register-btn::after{
+    content: "";
+    position: absolute;
+    border-left:1px solid rgba(0,0,0,.5);
+    top:0;
+    left:235px;
+    bottom:0;
+    right:0;
+    z-index: 1;
+}
+.shopping-cart{
+    position:relative;
+}
+.shopping-cart::before, 
+.shopping-cart::after{
+--scale:0;
+--tooltip-color: #f2f2f2;
+--arrow-size: 6.5px; 
+position: absolute;
+bottom:  -0.55rem;
+left:50%;
+content: "";
+transform: translateX(-80%) translateY(var(--translate-y, 0)) scale(var(--scale));
+transition: 150ms transform;
+transform-origin: top right;
+
+}
+.shopping-cart::before{
+    --translate-y:calc(100% - var(--arrow-size));
+    content: attr(data-tooltip);
+    color: #111;
+    padding: 1.2rem;
+    width: max-content;
+    text-align: start;
+    background: var(--tooltip-color);
+}
+.shopping-cart:hover::before,
+.shopping-cart:hover::after{
+  --scale:1;
+}
+.shopping-cart::after{
+  --translate-y:calc( -1 * var(--arrow-size));
+    content: "";
+    border: var(--arrow-size) solid transparent;
+    border-bottom-color:var(--tooltip-color);
+    transform-origin: bottom center;
+    
+}
+.menu-item .active{
+    background: #0018ba;
+}
+.menu-item a:hover{
+    background: #0018ba;
+}
+.time-open{
+    margin-left: 11rem;
+}
+.time-open li a [data-bs-toggle="tooltip"]{
+    width: max-content;
+}
+.offcanvas{
+    width: 82%!important;
+}
+.phone-social-icons a{
+    background: #fff;
+}
+
+
+
+/* media queries  */
+@media screen and (min-width:426px) and (max-width:600px) {
+    .offcanvas{
+        width: 50% !important;
+    }
+}
+@media screen and (min-width:600px) and (max-width:992px) {
+    .offcanvas{
+        width: 25% !important;
+    }
+}
+    
+
