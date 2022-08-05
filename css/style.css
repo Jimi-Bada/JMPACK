@@ -34,6 +34,7 @@ color: #111;
 
 .register-btn{
     position: relative;
+    width: max-content;
 }
 .register-btn::before{
     content: "";
@@ -99,7 +100,7 @@ transform-origin: top right;
     background: #0018ba;
 }
 .time-open{
-    margin-left: 11rem;
+    margin-left: 13rem;
 }
 .time-open li a [data-bs-toggle="tooltip"]{
     width: max-content;
@@ -110,7 +111,9 @@ transform-origin: top right;
 .phone-social-icons a{
     background: #fff;
 }
-
+.main-content-wrapper{
+    max-width: 1080px;
+}
 
 
 /* media queries  */

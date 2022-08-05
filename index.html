@@ -88,11 +88,15 @@
                           class="bi bi-search"></i></span>
                     </form>
                   </div>
+
                 </div>
                 <div class="aside d-none d-lg-flex align-items-center ">
-                  <button type="button"
-                    class="btn btn-primary text-uppercase text-center mx-4 rounded-pill register-btn"> Acceder /
+                  <div class="register">
+                    <button type="button"
+                    class="btn btn-primary text-uppercase text-center mx-4 rounded-pill register-btn "> Acceder /
                     Registrarse</button>
+                  </div>
+                  
                   <div class="nav-tool-tip ms-4" title="Carrito">
                     <div class="btn btn-primary rounded-pill shopping-cart"
                       data-tooltip="No hay productos en el carrito.">
@@ -160,8 +164,8 @@
 
     <div class="navigation-bar container-fluid ">
       <div class="row bg-danger d-none d-lg-flex">
-        <div class="col-6 d-flex justify-content-center">
-          <ul class="d-inline-flex ms-5 my-3   ">
+        <div class="col-7 d-flex justify-content-xl-evenly">
+          <ul class="d-inline-flex ps-0 ps-xl-5 ms-xl-5 my-3   ">
             <li class="p-1 menu-item">
               <a href="http://" class="text-uppercase text-center p-2 active rounded-pill text-white">tienda</a>
             </li>
@@ -176,8 +180,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-6 d-flex justify-content-center align-items-center">
-          <div class="time-open  ps-5">
+        <div class="col-5 d-flex justify-content-start align-items-center">
+          <div class="time-open ps-5">
             <ul class="p-0 m-0">
               <li>
                 <a href="http://" class="text-white" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -191,6 +195,311 @@
     </div>
     </div>
   </header>
+  <section id="main">
+    <div class="main-content-wrapper container-fluid mt-5 ">
+      <div class="content-title row mx-auto mb-4 mt-5">
+        <div class="col-12">
+          <h1 class="text-center text-lg-start">Tienda</h1>
+        </div>
+        <div class="col-12 d-flex d-lg-none justify-content-center">
+          <button class="btn btn-white text-dark " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="row product-categories mx-auto ">
+      <div class="col-3 d-none d-lg-flex ">
+        <div class="col">
+          <ul class="bookmark-list ps-0">
+            <div class="text-center bg-primary py-2 mb-4 rounded">
+              <div class="collection-title">
+                <h6 class="fs-6 text-white pt-2 ">Add New Collection <i class="fa-light fa-plus fs-5 fw-normal"></i> </h6>
+              </div>
+            </div>
+            <li>
+              <div id="dsgn-1" class="d-flex align-items-center justify-content-between border account-select animate__animated animate__flipInX animate__faster collection active-collection" onclick="toggleopenDsgn1()">
+                <p class="pt-3 ps-2">Design</p>
+                <i class="fa-solid fa-chevron-right pe-3"></i>
+              </div>
+            </li>
+            <li>
+              <span id="tech-1" class="d-flex align-items-center justify-content-between border account-select rounded-bottom animate__animated animate__ flipInX animate__faster collection" onclick="toggleopenTech1()">
+                <p class="pt-3 ps-2 ">Technology</p>
+                <i class="fa-solid fa-chevron-right pe-3 "></i>
+              </span>
+            </li>
+            <li>
+              <div class="d-flex align-items-center justify-content-between border  bg-white account-select rounded-bottom  animate__animated animate__flipInX animate__faster  collection ">
+              <p class="pt-3 ps-2">Business</p>
+              <i class="fa-solid fa-chevron-right pe-3"></i>
+            </div>
+            </li>
+            <li>
+              <div class="d-flex align-items-center justify-content-between border  bg-white account-select rounded-bottom  animate__animated animate__flipInX animate__faster collection ">
+              <p class="pt-3 ps-2">Blockchain</p>
+              <i class="fa-solid fa-chevron-right pe-3"></i>
+            </div>
+            </li>
+            <li>
+              <div class="d-flex align-items-center justify-content-between border  bg-white account-select rounded-bottom animate__animated animate__flipInX animate__faster collection ">
+              <p class="pt-3 ps-2">Start Ups</p>
+              <i class="fa-solid fa-chevron-right pe-3"></i>
+            </div>
+            </li>
+            <li>
+              <div class="d-flex align-items-center justify-content-between border  bg-white account-select rounded-bottom animate__animated animate__flipInX animate__faster collection ">
+              <p class="pt-3 ps-2">Development</p>
+              <i class="fa-solid fa-chevron-right pe-3"></i>
+            </div>
+            </li>
+            <li>
+              <div class="d-flex align-items-center justify-content-between border  bg-white account-select rounded-bottom animate__animated animate__flipInX animate__faster collection">
+              <p class="pt-3 ps-2">Notification Settings</p>
+              <i class="fa-solid fa-chevron-right pe-3"></i>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="row">
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/aseo-y-limpieza-virutex-247x296.jpg" class="card-img-top img-fluid" alt="..." >
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Bandejas-de-Aluminio-JMPack-247x241.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-12 p-1">
+            <div class="card" >
+              <img src="img/Cartones-de-Reposteria-scaled-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/bolsa-courier-grande-247x296.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/bolsa-taco-normal_2-247x296.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-12 p-1">
+            <div class="card" >
+              <img src="img/bolsas-de-papel-kraft-247x296.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Bombillas-Ecológicas-de-Papel-247x252.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/eco000097-_Caja-Carton-Chica-Blanca-con-Ventana-247x296 (1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Capsulas-y-Blondas-de-Papel-247x205.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Tenedores-y-Cucharas-de-madera-2-216x296.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Envases-Biodegradables-de-Origen-Vegetal-247x239.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/envases-kraft-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Envases-Plasticos-2-247x263.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Envases-Termicos-de-Plumavit-247x271.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Film-Alimento-Transparente-247x250.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/guante-desechable-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/cupcake-6-247x296.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6p-1">
+            <div class="card" >
+              <img src="img/molde-de-papel-horneable-247x296.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/papel-antigrasa-1-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/plato-desechables-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Pocillos-y-Degustadores-247x183.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Potes-Desechables-para-Salsas-y-Miel-247x236.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/toallas-y-papel-higienico-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Vaso-Acrilico-para-postres-247x270.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/vasos-desecuables-para-cafe-247x296.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="card" >
+              <img src="img/Vasos-Desechables-Plasticos-JMPACK.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
