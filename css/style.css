@@ -3,12 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
-
+   
 
 }
 ul, a{
     text-decoration: none;
-    color: #111;
+    color: #334862;
     list-style: none;
 }
 ul a:hover {
@@ -16,7 +16,6 @@ color: #111;
 }
 
 /* Header */
-
 
 .navbar-toggler:focus {
     box-shadow: none!important;
@@ -31,10 +30,18 @@ color: #111;
 .search-bar{
     padding-right: 20rem;
 }
-
+.btn:focus{
+    box-shadow: none!important;
+}
 .register-btn{
     position: relative;
     width: max-content;
+    background: #115198!important;
+    color: #fff;
+}
+.register-btn:hover{
+    color: #fff;
+    background:#115198 ;
 }
 .register-btn::before{
     content: "";
@@ -57,6 +64,11 @@ color: #111;
 }
 .shopping-cart{
     position:relative;
+    background: #115198;
+    color: #fff; 
+}
+.person-btn, .cart-btn{
+    background: #115198!important;
 }
 .shopping-cart::before, 
 .shopping-cart::after{
@@ -107,25 +119,77 @@ transform-origin: top right;
 }
 .offcanvas{
     width: 82%!important;
+  
 }
 .phone-social-icons a{
     background: #fff;
 }
-.main-content-wrapper{
+.main-content-wrapper,
+.footer-1 .row, 
+.footer-2 .row{
     max-width: 1080px;
 }
+.phone-menu-item{
+    border-bottom: 1px solid #e8e0e0;
+}
+.is-divider{
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
+.btn-close{
+    background: none!important;
+    z-index: 1000;
+    position: absolute!important;
+    opacity: 1!important;
+    right: -3rem;
+    
+}
+.btn-close-shopping-cart{
+    right: 1rem!important;
+}
 
+.btn-close  .bi-x-lg{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #fff;
+}
+.card{
+    border: none!important;
+}
+.card-body p{
+    font-size: 0.7rem;
+}
 
+.card-img{
+    height: 13.5rem;
+}
+.footer-1{
+    background: #000b70
+}
 /* media queries  */
 @media screen and (min-width:426px) and (max-width:600px) {
     .offcanvas{
         width: 50% !important;
     }
+    .card-img{
+        height: 16.5rem;
+    }
 }
 @media screen and (min-width:600px) and (max-width:992px) {
     .offcanvas{
-        width: 25% !important;
+        width: 33% !important;
     }
+    .card-img{
+        height: 16.5rem;
+    }
+}
+@media screen and (min-width:992px) and (max-width:2000px) {
+  
+    
 }
     
 
