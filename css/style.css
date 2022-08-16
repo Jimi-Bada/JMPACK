@@ -16,19 +16,34 @@ color: #111;
 }
 
 /* Header */
-
+.fs-7{
+    font-size: 0.9rem!important;
+}
+.fs-8{
+    font-size: 0.8rem!important;
+}
+.top-bar h6{
+    letter-spacing: 0.03em;
+}
 .navbar-toggler:focus {
     box-shadow: none!important;
 }
 #resizingSelectTag {
-    width: 70px;
+    width: 66px;
+    background: rgba(0,0,0, .03);
 } 
     
 #selectTagWidth{
     display : none;
 } 
 .search-bar{
-    padding-right: 20rem;
+    padding-right: 15rem;
+    background:rgba(0,0,0, .03) ;
+    padding-top: 0.175rem;
+    padding-bottom: 0.175rem;
+}
+.search-bar::placeholder{
+    font-size: 0.8rem;
 }
 .btn:focus{
     box-shadow: none!important;
@@ -46,7 +61,7 @@ color: #111;
 .register-btn::before{
     content: "";
     position: absolute;
-    border-left:1px solid rgba(0,0,0,.5);
+    border-left:1px solid rgba(0,0,0,.1);
     top:0;
     left:-13px;
     bottom:0;
@@ -55,9 +70,9 @@ color: #111;
 .register-btn::after{
     content: "";
     position: absolute;
-    border-left:1px solid rgba(0,0,0,.5);
+    border-left:1px solid rgba(0,0,0,.1);
     top:0;
-    left:235px;
+    left:210px;
     bottom:0;
     right:0;
     z-index: 1;
@@ -129,6 +144,9 @@ transform-origin: top right;
 .footer-2 .row{
     max-width: 1080px;
 }
+.max-width{
+    max-width: 1080px;
+}
 .phone-menu-item{
     border-bottom: 1px solid #e8e0e0;
 }
@@ -164,32 +182,73 @@ transform-origin: top right;
     font-size: 0.7rem;
 }
 
-.card-img{
-    height: 13.5rem;
+.card-img img{
+    width: 180px;
+    height: 162px;
+    object-fit: cover;
+    max-width: 100%;
+  
 }
+.card-img{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    height: 102px;
+    width: 100%;
+    line-height: 1.3;
+    letter-spacing: .05em;
+}
+
 .footer-1{
     background: #000b70
 }
+.navigation-bar .row{
+    background: #ff0000;
+}
+
 /* media queries  */
 @media screen and (min-width:426px) and (max-width:600px) {
     .offcanvas{
         width: 50% !important;
     }
-    .card-img{
-        height: 16.5rem;
-    }
+   
 }
 @media screen and (min-width:600px) and (max-width:992px) {
     .offcanvas{
         width: 33% !important;
     }
-    .card-img{
-        height: 16.5rem;
+    .card-img img{
+      width:100%
     }
+  .card-body{
+      padding-top: 2rem!important;
+  }
+  .btn-subscribe button{
+    padding-left: 15rem!important;
+    padding-right: 15rem!important;
+}
 }
 @media screen and (min-width:992px) and (max-width:2000px) {
-  
     
 }
-    
+@media screen and (max-width:426px) {
+  
+  .card-body h6{
+      font-size: 0.8rem;
+  }
+  .footer-title h5{
+     font-size: 1rem;
+  }
+  
+}
+@media screen and (min-width:700px) and (max-width:992px) {
+    .card-img img{
+        min-height: 15rem;
+        width:100%
+          
+      }
+}
+
 

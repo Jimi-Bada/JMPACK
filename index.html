@@ -16,9 +16,10 @@
 <body>
   <section id="top-bar">
     <div class="top-bar d-lg-none bg-light ">
-      <div class="row container-fluid ">
+      <div class="row mx-auto ">
         <div class="col-12">
-          <h6 class="text-uppercase fw-bold text-sm-center text-start">10 AÑOS EN EL MERCADO. Despachos a
+          <h6 class="text-uppercase fw-bold text-sm-center text-start fs-8 text-muted">10 AÑOS EN EL MERCADO. Despachos
+            a
             todo Chile.
           </h6>
         </div>
@@ -28,7 +29,7 @@
   <header id="header" class="sticky-top container-fluid ">
     <div class="header-wrapper">
       <div class="offcanvas-wrapper container-fluid px-0">
-        <nav class="navbar navbar-expand-lg bg-light ">
+        <nav class="navbar navbar-expand-lg bg-white py-0 ">
           <div class="container-fluid">
             <div
               class="phone d-flex  d-lg-none align-items-center container-fluid justify-content-center justify-content-sm-between ">
@@ -67,18 +68,45 @@
               aria-labelledby="offcanvasNavbarLabel">
               <button type="button" class="btn-close d-lg-none " data-bs-dismiss="offcanvas" aria-label="Close"><i
                   class="bi bi-x-lg "></i></button>
-              <div class="offcanvas-body justify-content-center mt-4">
+              <div class="offcanvas-body justify-content-between max-width mx-auto ">
 
                 <div class="largescreen-nav d-none d-lg-flex  ">
-                  <a class="navbar-brand" href="#"><img src="img/jmpack-logo-nuevo.png" alt=""></a>
-                  <div class="select-options d-lg-flex align-items-center me-2 ">
-                    <select id="resizingSelectTag" class="rounded-pill py-1">
+                  <a class="navbar-brand d-none d-lg-flex me-5 " href="#"><img src="img/jmpack-logo-nuevo.png" alt="">
+                  </a>
+                  <div class="select-options d-lg-flex align-items-center me-2 ms-5 ">
+                    <select id="resizingSelectTag" class="rounded-pill py-1 text-muted fs-7">
+                      <option value="" selected="selected">Todo</option>
+                      <option value="articulos-de-aseo">Artículos de Aseo</option>
+                      <option value="bandejas-de-alumino">Bandejas de Alumino</option>
+                      <option value="bandejas-y-discos-de-carton-pasteleria-y-reposteria">Bandejas y Discos</option>
+                      <option value="bolsa-compostable-ecologica">Bolsas Compostables Ecologicas</option>
+                      <option value="bolsas-plasticas">Bolsas Plasticas</option>
+                      <option value="bolsas-sacos-papel-kraft">Bolsas y Sacos de Papel Kraft</option>
+                      <option value="bombillas-papel">Bombillas de Papel</option>
+                      <option value="cajas-carton-tortas-completos">Cajas de cartón para tortas, completos y
+                        salchipapas</option>
+                      <option value="capsulas-blondas-papel-para-pasteleria-reposteria-banquetes">Capsulas y Blondas
+                      </option>
+                      <option value="cubiertos-desechable">Cubiertos Desechables</option>
+                      <option value="envases-biodegradables-compostables">Envases Biodegradables</option>
+                      <option value="envases-kraft-ecologicos">Envases Kraft Ecologicos</option>
+                      <option value="envases-plasticos">Envases Plasticos</option>
+                      <option value="envases-termicos-plumavit">Envases Termicos de Plumavit</option>
+                      <option value="rollos-film-alimento-alusa-transparente">Film Alimento Transparente</option>
+                      <option value="guantes-desechables">Guantes Desechables</option>
+                      <option value="insumos-de-pasteleria">Insumos de Pastelería</option>
+                      <option value="molde-de-papel-horneable">Molde de Papel Horneable</option>
+                      <option value="papel-antigrasa-mantequilla">Papel Antigrasa y Mantequilla para Alimento</option>
+                      <option value="platos-desechables">Platos Desechables</option>
+                      <option value="pocillos-degustadores-desechables">Pocillos y Degustadores</option>
+                      <option value="pote-plastico-desechable">Potes Plasticos</option>
+                      <option value="toallas-papel-higienico">Toallas y Papel Higienico</option>
+                      <option value="vaso-acrilico-postres-reposteria">Vasos Acrilicos para postres y reposteria
+                      </option>
+                      <option value="vasos-desechable-cafe-poli-papel">Vasos desechable para Cafe</option>
+                      <option value="vaso-plastico-desechable">Vasos plásticos desechables con tapas</option>
 
-                      <option>Todo</option>
 
-                      <option>Lorem Ipsum</option>
-
-                      <option>Lorem Ipsum is not simply random text.</option>
 
                     </select>
 
@@ -88,7 +116,7 @@
 
                     </select>
                     <form class="ms-1 position-relative " role="search">
-                      <input class="form-control rounded-pill search-bar " type="search" placeholder="Buscar.."
+                      <input class="form-control rounded-pill search-bar" type="search" placeholder="Buscar.."
                         aria-label="Search">
                       <span class="search-icon position-absolute top-0 end-0 bottom-0 d-flex align-items-center"><i
                           class="bi bi-search"></i></span>
@@ -98,28 +126,52 @@
                 </div>
                 <div class="aside d-none d-lg-flex align-items-center ">
                   <div class="register">
-                    <button type="button" class="btn  text-uppercase text-center mx-4 rounded-pill register-btn ">
+                    <button type="button" class="btn  text-uppercase text-center mx-4 rounded-pill register-btn fs-7">
                       Acceder /
                       Registrarse</button>
                   </div>
 
-                  <div class="nav-tool-tip ms-4" title="Carrito">
-                    <div class="btn btn-primary rounded-pill shopping-cart"
+                  <div class="nav-tool-tip ms-2" title="Carrito">
+                    <div class="btn btn-primary rounded-pill shopping-cart text-center"
                       data-tooltip="No hay productos en el carrito.">
-                      <i class="bi bi-cart4 "></i>
+                      <i class="bi bi-cart4 fs-7 "></i>
                     </div>
                   </div>
                 </div>
-                <div class="phone-nav d-lg-none">
+                <div class="phone-nav d-lg-none fs-7">
                   <div class="select-options d-flex align-items-center me-2">
-                    <select id="resizingSelectTag" class="rounded-pill">
+                    <select id="resizingSelectTag" class="rounded-pill py-1 px-2 bg-light text-muted  fs-8">
 
-                      <option>Todo</option>
-
-                      <option>Lorem Ipsum</option>
-
-                      <option>Lorem Ipsum is not simply random text.</option>
-
+                      <option value="" selected="selected">Todo</option>
+                      <option value="articulos-de-aseo">Artículos de Aseo</option>
+                      <option value="bandejas-de-alumino">Bandejas de Alumino</option>
+                      <option value="bandejas-y-discos-de-carton-pasteleria-y-reposteria">Bandejas y Discos</option>
+                      <option value="bolsa-compostable-ecologica">Bolsas Compostables Ecologicas</option>
+                      <option value="bolsas-plasticas">Bolsas Plasticas</option>
+                      <option value="bolsas-sacos-papel-kraft">Bolsas y Sacos de Papel Kraft</option>
+                      <option value="bombillas-papel">Bombillas de Papel</option>
+                      <option value="cajas-carton-tortas-completos">Cajas de cartón para tortas, completos y
+                        salchipapas</option>
+                      <option value="capsulas-blondas-papel-para-pasteleria-reposteria-banquetes">Capsulas y Blondas
+                      </option>
+                      <option value="cubiertos-desechable">Cubiertos Desechables</option>
+                      <option value="envases-biodegradables-compostables">Envases Biodegradables</option>
+                      <option value="envases-kraft-ecologicos">Envases Kraft Ecologicos</option>
+                      <option value="envases-plasticos">Envases Plasticos</option>
+                      <option value="envases-termicos-plumavit">Envases Termicos de Plumavit</option>
+                      <option value="rollos-film-alimento-alusa-transparente">Film Alimento Transparente</option>
+                      <option value="guantes-desechables">Guantes Desechables</option>
+                      <option value="insumos-de-pasteleria">Insumos de Pastelería</option>
+                      <option value="molde-de-papel-horneable">Molde de Papel Horneable</option>
+                      <option value="papel-antigrasa-mantequilla">Papel Antigrasa y Mantequilla para Alimento</option>
+                      <option value="platos-desechables">Platos Desechables</option>
+                      <option value="pocillos-degustadores-desechables">Pocillos y Degustadores</option>
+                      <option value="pote-plastico-desechable">Potes Plasticos</option>
+                      <option value="toallas-papel-higienico">Toallas y Papel Higienico</option>
+                      <option value="vaso-acrilico-postres-reposteria">Vasos Acrilicos para postres y reposteria
+                      </option>
+                      <option value="vasos-desechable-cafe-poli-papel">Vasos desechable para Cafe</option>
+                      <option value="vaso-plastico-desechable">Vasos plásticos desechables con tapas</option>
                     </select>
 
                     <select id="selectTagWidth">
@@ -135,7 +187,7 @@
                     </form>
                   </div>
                   <div class="phone-menu">
-                    <ul class="d-block p-0 my-3">
+                    <ul class="d-block p-0 my-3 fw-bolder">
                       <li class="p-3 ps-0 phone-menu-item">
                         <a href="http://"
                           class="text-uppercase text-start p-2 active rounded-pill text-secondary">tienda</a>
@@ -157,13 +209,13 @@
                       </li>
                     </ul>
                     <div class="phone-social-icons d-inline-flex">
-                      <a class="btn  rounded-circle border border-dark facebook-icon m-1" href="#" role="button"><i
+                      <a class="btn  text-muted facebook-icon px-1 fs-5" href="#" role="button"><i
                           class="bi bi-facebook"></i></a>
-                      <a class="btn  rounded-circle border border-dark instagram-icon m-1" href="#" role="button"><i
+                      <a class="btn  text-muted instagram-icon px-1 fs-5" href="#" role="button"><i
                           class="bi bi-instagram"></i></a>
-                      <a class="btn  rounded-circle border border-dark twittter-icon m-1" href="#" role="button"><i
+                      <a class="btn  text-muted twittter-icon px-1 fs-5 " href="#" role="button"><i
                           class="bi bi-twitter"></i></a>
-                      <a class="btn  rounded-circle border border-dark mail-icon m-1" href="#" role="button"><i
+                      <a class="btn  text-muted mail-icon px-1 fs-5" href="#" role="button"><i
                           class="bi bi-envelope"></i></a>
                     </div>
                   </div>
@@ -176,21 +228,21 @@
     </nav>
     </div>
 
-    <div class="navigation-bar container-fluid ">
-      <div class="row bg-danger d-none d-lg-flex">
+    <div class="navigation-bar">
+      <div class="row  d-none d-lg-flex">
         <div class="col-7 d-flex justify-content-xl-evenly">
-          <ul class="d-inline-flex ps-0 ps-xl-5 ms-xl-5 my-3   ">
-            <li class="p-1 menu-item">
-              <a href="http://" class="text-uppercase text-center p-2 active rounded-pill text-white">tienda</a>
+          <ul class="d-inline-flex ps-0 ps-xl-5 ms-xl-5 my-2 fs-8   ">
+            <li class="py-1 menu-item">
+              <a href="http://" class="text-uppercase text-center p-3 active rounded-pill text-white">tienda</a>
             </li>
-            <li class="p-1 menu-item">
-              <a href="http://" class="text-uppercase text-center p-2  rounded-pill text-white">descuentos</a>
+            <li class="py-1 menu-item">
+              <a href="http://" class="text-uppercase text-center p-3  rounded-pill text-white">descuentos</a>
             </li>
-            <li class="p-1 menu-item">
-              <a href="http://" class="text-uppercase text-center p-2  rounded-pill text-white">dispacho</a>
+            <li class="py-1 menu-item">
+              <a href="http://" class="text-uppercase text-center p-3  rounded-pill text-white">dispacho</a>
             </li>
-            <li class="p-1 menu-item">
-              <a href="http://" class="text-uppercase text-center p-2 rounded-pill text-white">retiros</a>
+            <li class="py-1 menu-item">
+              <a href="http://" class="text-uppercase text-center p-3 rounded-pill text-white">retiros</a>
             </li>
           </ul>
         </div>
@@ -210,14 +262,14 @@
     </div>
   </header>
   <section id="main" class="container-fluid">
-    <div class="main-content-wrapper container-fluid mt-4  ">
+    <div class="main-content-wrapper mx-auto mt-4  ">
       <div class="content-title row mx-auto  ">
-        <div class="col-12">
-          <h6 class="text-center text-lg-start">CATEGORIAS DE PRODUCTOS</h6>
+        <div class="col-12 mt-2">
+          <h6 class="text-center text-lg-start fs-8 fw-bold">CATEGORIAS DE PRODUCTOS</h6>
         </div>
         <div class="col-12 d-flex d-lg-none justify-content-center">
-          <button class="btn btn-white text-uppercase" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="bi bi-funnel"></i>
+          <button class="btn btn-white text-uppercase text-muted fw-bolder" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="bi bi-sliders fw-bolder"></i>
             filtrar
           </button>
 
@@ -228,7 +280,7 @@
                   class="bi bi-x-lg"></i></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="categories-lists ps-0">
+              <ul class="categories-lists ps-0 ">
                 <div class="bg-white rounded mb-4">
                   <div class="categories-title">
                     <h6 class="fs-6  pt-2 text-uppercase ">categorias
@@ -237,166 +289,172 @@
                   <div class="is-divider me-auto">
                   </div>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Articuloso de Aseo</p>
                       <p class="text-muted">(19)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Bandejas de Alumino</p>
+                      <p class="text-muted">(23)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Bandejas y Ducos</p>
+                      <p class="text-muted">(21)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Bolsas Compostables Ecologicos</p>
+                      <p class="text-muted">(4)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Bolsas Plasticos</p>
+                      <p class="text-muted">(6)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Articuloso de Aseo</p>
-                      <p class="text-muted">(19)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Film Almunto Transparente</p>
-                      <p class="text-muted">(7)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Guantos Desechables</p>
-                      <p class="text-muted">(8)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Insumos de Parteleria</p>
-                      <p class="text-muted">(15)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Molde de Papel Horneable </p>
-                      <p class="text-muted">(8)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Papel Antigrasa y mantequilla para almentos</p>
-                      <p class="text-muted">(2)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Platos Desechables</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Bolsas y sacos de Papel Kraft</p>
                       <p class="text-muted">(9)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Pocillos y Digustadores</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Bombilas de papel</p>
+                      <p class="text-muted">(8)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Cajas de Carton Para Tortas completes y salchipapas</p>
                       <p class="text-muted">(14)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Potes Plasticos</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Capsulas y Blondas</p>
+                      <p class="text-muted">(10)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Cubiertos Desechables</p>
+                      <p class="text-muted">(19)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Envases Biodegradables</p>
+                      <p class="text-muted">(17)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Envases Kraft Ecologicos</p>
+                      <p class="text-muted">(6)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Envases Plasticos</p>
+                      <p class="text-muted">(24)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Envases Termicos de Plumavit</p>
+                      <p class="text-muted">(28)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Film Almunto Transparente</p>
+                      <p class="text-muted">(7)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Guantos Desechables</p>
+                      <p class="text-muted">(8)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Insumos de Parteleria</p>
+                      <p class="text-muted">(15)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Molde de Papel Horneable </p>
+                      <p class="text-muted">(8)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Papel Antigrasa y mantequilla para almentos</p>
+                      <p class="text-muted">(2)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Platos Desechables</p>
+                      <p class="text-muted">(9)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Pocillos y Digustadores</p>
+                      <p class="text-muted">(14)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Potes Plasticos</p>
                       <p class="text-muted">(12)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Toallas y Papel Higienico</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Toallas y Papel Higienico</p>
                       <p class="text-muted">(9)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Vasos Acrilicos para psotres y reposteria</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Vasos Acrilicos para psotres y reposteria</p>
                       <p class="text-muted">(5)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Vasos desechables para cafe</p>
+                    <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                      <p class="mb-0 py-1 ">Vasos desechables para cafe</p>
                       <p class="text-muted">(9)</p>
                     </div>
                   </li>
                   <li>
-                    <div class="d-flex align-items-center justify-content-between border  category-list">
-                      <p class="">Vasos Plasicos desechables con tapas</p>
+                    <div class="d-flex align-items-center justify-content-between  category-list">
+                      <p class="mb-0 py-1 ">Vasos Plasicos desechables con tapas</p>
                       <p class="text-muted">(10)</p>
                     </div>
                   </li>
-                  
+                </div>
               </ul>
-              
+
             </div>
           </div>
         </div>
       </div>
-      <div class="row product-categories mx-auto mt-5">
+      <div class="row product-categories mx-auto mt-4 d-flex justify-content-between">
         <div class="col-3 d-none d-lg-flex ">
           <div class="col">
-            <ul class="categories-lists ps-0">
+            <ul class="categories-lists ps-0 ">
               <div class="bg-white rounded mb-4">
                 <div class="categories-title">
                   <h6 class="fs-6  pt-2 text-uppercase ">categorias
@@ -405,464 +463,486 @@
                 <div class="is-divider me-auto">
                 </div>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Articuloso de Aseo</p>
                     <p class="text-muted">(19)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Bandejas de Alumino</p>
+                    <p class="text-muted">(23)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Bandejas y Ducos</p>
+                    <p class="text-muted">(21)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Bolsas Compostables Ecologicos</p>
+                    <p class="text-muted">(4)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Bolsas Plasticos</p>
+                    <p class="text-muted">(6)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Articuloso de Aseo</p>
-                    <p class="text-muted">(19)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Film Almunto Transparente</p>
-                    <p class="text-muted">(7)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Guantos Desechables</p>
-                    <p class="text-muted">(8)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Insumos de Parteleria</p>
-                    <p class="text-muted">(15)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Molde de Papel Horneable </p>
-                    <p class="text-muted">(8)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Papel Antigrasa y mantequilla para almentos</p>
-                    <p class="text-muted">(2)</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Platos Desechables</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Bolsas y sacos de Papel Kraft</p>
                     <p class="text-muted">(9)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Pocillos y Digustadores</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Bombilas de papel</p>
+                    <p class="text-muted">(8)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Cajas de Carton Para Tortas completes y salchipapas</p>
                     <p class="text-muted">(14)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Potes Plasticos</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Capsulas y Blondas</p>
+                    <p class="text-muted">(10)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Cubiertos Desechables</p>
+                    <p class="text-muted">(19)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Envases Biodegradables</p>
+                    <p class="text-muted">(17)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Envases Kraft Ecologicos</p>
+                    <p class="text-muted">(6)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Envases Plasticos</p>
+                    <p class="text-muted">(24)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Envases Termicos de Plumavit</p>
+                    <p class="text-muted">(28)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Film Almunto Transparente</p>
+                    <p class="text-muted">(7)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Guantos Desechables</p>
+                    <p class="text-muted">(8)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Insumos de Parteleria</p>
+                    <p class="text-muted">(15)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Molde de Papel Horneable </p>
+                    <p class="text-muted">(8)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Papel Antigrasa y mantequilla para almentos</p>
+                    <p class="text-muted">(2)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Platos Desechables</p>
+                    <p class="text-muted">(9)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Pocillos y Digustadores</p>
+                    <p class="text-muted">(14)</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Potes Plasticos</p>
                     <p class="text-muted">(12)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Toallas y Papel Higienico</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Toallas y Papel Higienico</p>
                     <p class="text-muted">(9)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Vasos Acrilicos para psotres y reposteria</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Vasos Acrilicos para psotres y reposteria</p>
                     <p class="text-muted">(5)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Vasos desechables para cafe</p>
+                  <div class="d-flex align-items-center justify-content-between border-bottom  category-list">
+                    <p class="mb-0 py-1 ">Vasos desechables para cafe</p>
                     <p class="text-muted">(9)</p>
                   </div>
                 </li>
                 <li>
-                  <div class="d-flex align-items-center justify-content-between border  category-list">
-                    <p class="">Vasos Plasicos desechables con tapas</p>
+                  <div class="d-flex align-items-center justify-content-between  category-list">
+                    <p class="mb-0 py-1 ">Vasos Plasicos desechables con tapas</p>
                     <p class="text-muted">(10)</p>
                   </div>
                 </li>
-                
+              </div>
             </ul>
           </div>
         </div>
         <div class="col-lg-9">
           <div class="row">
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6  pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/aseo-y-limpieza-virutex-247x296.jpg" class="card-img-top img-fluid" alt="...">
-
+                  <img src="img/aseo-y-limpieza-virutex-247x247.jpg" class="card-img-top" alt="...">
                 </div>
 
-                <div class="card-body p-1 ">
-                  <h6 class="card-text text-center text-uppercase mb-0">articulos de aseo</h6>
-                  <p class="card-text text-center text-uppercase mb-0">19 productos</p>
+                <div class="card-body p-2 pb-4 ">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">articulos de aseo</h6>
+                  <p class="card-text text-center text-uppercase mb-0">16 productos</p>
 
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
                   <img src="img/Bandejas-de-Aluminio-JMPack-247x241.png" class="card-img-top" alt="...">
                 </div>
 
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">bandejas de aluminio</h6>
-                  <p class="card-text text-center text-uppercase mb-0">23 productos</p>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">bandejas de aluminio
+                  </h6>
+                  <p class="card-text text-center text-uppercase mb-0">9 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/Cartones-de-Reposteria-scaled-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/Cartones-de-Reposteria-scaled-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">bandejas y discos</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">bandejas y discos</h6>
                   <p class="card-text text-center text-uppercase mb-0">21 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
-                <div class="card-img">
-                  <img src="img/bolsa-courier-grande-247x296.png" class="card-img-top" alt="...">
+                <div class="card-img ">
+                  <img src="img/bolsa-courier-grande-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">bolsas compostables ecologicas</h6>
-                  <p class="card-text text-center text-uppercase mb-0">4 productos</p>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">bolsas compostables
+                    ecologicas</h6>
+                  <p class="card-text text-center text-uppercase mb-0">3 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/bolsa-taco-normal_2-247x296.png" class="card-img-top" alt="...">
+                  <img src="img/bolsa-taco-normal_2-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">bolsas plasticas</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">bolsas plasticas</h6>
                   <p class="card-text text-center text-uppercase mb-0">6 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/bolsas-de-papel-kraft-247x296.jpeg" class="card-img-top" alt="...">
+                  <img src="img/bolsas-de-papel-kraft-247x247.jpeg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">bolsas y sacos de papel kraft</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">bolsas y sacos de papel
+                    kraft</h6>
                   <p class="card-text text-center text-uppercase mb-0">9 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/Bombillas-Ecológicas-de-Papel-247x252.png" class="card-img-top" alt="...">
+                  <img src="img/Bombillas-Ecológicas-de-Papel-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">bombilas de papel</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">bombilas de papel</h6>
                   <p class="card-text text-center text-uppercase mb-0">8 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/eco000097-_Caja-Carton-Chica-Blanca-con-Ventana-247x296 (1).png" class="card-img-top"
+                  <img src="img/eco000097-_Caja-Carton-Chica-Blanca-con-Ventana-247x247.png" class="card-img-top"
                     alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">cajas de carton para tortas completos y
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">cajas de carton para
+                    tortas completos y
                     salchipapas</h6>
                   <p class="card-text text-center text-uppercase mb-0">14 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
                   <img src="img/Capsulas-y-Blondas-de-Papel-247x205.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">capsulas y blondas</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">capsulas y blondas</h6>
                   <p class="card-text text-center text-uppercase mb-0">10 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
-                <div class="card-img">
+                <div class="card-img ">
                   <img src="img/Tenedores-y-Cucharas-de-madera-2-216x296.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1 p-sm-4 p-lg-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">cubiertos desechables</h6>
-                  <p class="card-text text-center text-uppercase mb-0">19 productos</p>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">cubiertos desechables
+                  </h6>
+                  <p class="card-text text-center text-uppercase mb-0">12 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
                   <img src="img/Envases-Biodegradables-de-Origen-Vegetal-247x239.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">envases biodegradeables</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">envases biodegradeables
+                  </h6>
                   <p class="card-text text-center text-uppercase mb-0">17 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/envases-kraft-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/envases-kraft-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">envases kraft ecologicos</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">envases kraft ecologicos
+                  </h6>
                   <p class="card-text text-center text-uppercase mb-0">6 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/Envases-Plasticos-2-247x263.png" class="card-img-top" alt="...">
+                  <img src="img/Envases-Plasticos-2-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">envases plasticos</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">envases plasticos</h6>
                   <p class="card-text text-center text-uppercase mb-0">24 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/Envases-Termicos-de-Plumavit-247x271.png" class="card-img-top" alt="...">
+                  <img src="img/Envases-Termicos-de-Plumavit-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">envases termicos de plumalit</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">envases termicos de
+                    plumalit</h6>
                   <p class="card-text text-center text-uppercase mb-0">28 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/Film-Alimento-Transparente-247x250.png" class="card-img-top" alt="...">
+                  <img src="img/Film-Alimento-Transparente-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">film almunito transparente</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">film almunito
+                    transparente</h6>
                   <p class="card-text text-center text-uppercase mb-0">7 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/guante-desechable-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/guante-desechable-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">guantos desechables</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">guantos desechables</h6>
                   <p class="card-text text-center text-uppercase mb-0">8 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/cupcake-6-247x296.png" class="card-img-top" alt="...">
+                  <img src="img/cupcake-6-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">insumos de parteleria</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">insumos de parteleria
+                  </h6>
                   <p class="card-text text-center text-uppercase mb-0">15 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/molde-de-papel-horneable-247x296.png" class="card-img-top" alt="...">
+                  <img src="img/molde-de-papel-horneable-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">molde de papel horneable</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">molde de papel horneable
+                  </h6>
                   <p class="card-text text-center text-uppercase mb-0">8 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/papel-antigrasa-1-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/papel-antigrasa-1-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">papel antigrasa y mantequilla para almentos</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">papel antigrasa y
+                    mantequilla para almentos</h6>
                   <p class="card-text text-center text-uppercase mb-0">2 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/plato-desechables-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/plato-desechables-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">platos desechables</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">platos desechables</h6>
                   <p class="card-text text-center text-uppercase mb-0">9 productos</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
-                <div class="card-img d-lg-flex flex-column justify-content-center">
+                <div class="card-img ">
                   <img src="img/Pocillos-y-Degustadores-247x183.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1 ">
-                  <h6 class="card-text text-center text-uppercase mb-0">pocillos y digustadores</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">pocillos y digustadores
+                  </h6>
                   <p class="card-text text-center text-uppercase mb-0">14 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
                   <img src="img/Potes-Desechables-para-Salsas-y-Miel-247x236.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">potes plasticos</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">potes plasticos</h6>
                   <p class="card-text text-center text-uppercase mb-0">12 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/toallas-y-papel-higienico-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/toallas-y-papel-higienico-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">toallas y papel higienico</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">toallas y papel
+                    higienico</h6>
                   <p class="card-text text-center text-uppercase mb-0">12 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/Vaso-Acrilico-para-postres-247x270.png" class="card-img-top" alt="...">
+                  <img src="img/Vaso-Acrilico-para-postres-247x247.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">vasos aerilicos para postres y reposteria</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">vasos aerilicos para
+                    postres y reposteria</h6>
                   <p class="card-text text-center text-uppercase mb-0">5 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
-                  <img src="img/vasos-desecuables-para-cafe-247x296.jpg" class="card-img-top" alt="...">
+                  <img src="img/vasos-desecuables-para-cafe-247x247.jpg" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">vasos desechable para cafe</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">vasos desechable para
+                    cafe</h6>
                   <p class="card-text text-center text-uppercase mb-0">9 productos</p>
                 </div>
 
               </div>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="col-lg-3 col-sm-4 col-6 pt-0 px-2 pb-4">
               <div class="card">
                 <div class="card-img">
                   <img src="img/Vasos-Desechables-Plasticos-JMPACK.png" class="card-img-top" alt="...">
                 </div>
-                <div class="card-body p-1">
-                  <h6 class="card-text text-center text-uppercase mb-0">vasos plasticos desechables con tapas</h6>
+                <div class="card-body p-2 pb-4">
+                  <h6 class="card-text text-center text-uppercase mb-0 fs-7 fw-bold text-muted">vasos plasticos
+                    desechables con tapas</h6>
                   <p class="card-text text-center text-uppercase mb-0">10 productos</p>
                 </div>
 
@@ -875,14 +955,14 @@
       </div>
     </div>
   </section>
-  <section id="footer">
+  <section id="footer ">
     <div class="footer-wrapper container-fluid">
-      <div class="footer-1 ">
-        <div class="row container-fluid mx-auto">
-          <div class="col-12 p-3">
+      <div class="footer-1  ">
+        <div class="row  mx-auto">
+          <div class="col-12 p-lg-3">
             <div class="row">
               <div class="col-lg-4 col-12 text-white">
-                <div class="footer-title ">
+                <div class="footer-title mt-4 mt-lg-0 ">
                   <h5>SOBRE NOSOTROS</h5>
                 </div>
                 <div class="is-divider me-auto bg-white"></div>
@@ -893,7 +973,7 @@
                 </div>
                 <div class="footer-links pt-3">
                   <ul class="p-0">
-                    <li >
+                    <li>
                       <a href="http://" class="text-white">Politica de Previdad</a>
                     </li>
                     <li>
@@ -913,8 +993,8 @@
                 </div>
               </div>
               <div class="col-lg-4 col-12 text-white">
-                <div class="footer-title ">
-                  <h5>SOBRE NOSOTROS</h5>
+                <div class="footer-title mt-4 mt-lg-0 ">
+                  <h>UBICACION</h5>
                 </div>
                 <div class="is-divider me-auto bg-white"></div>
                 <div class="footer-widget pt-3">
@@ -926,8 +1006,8 @@
                 </div>
               </div>
               <div class="col-lg-4 col-12 text-white">
-                <div class="footer-title ">
-                  <h5>SOBRE NOSOTROS</h5>
+                <div class="footer-title mt-4 mt-lg-0">
+                  <h5 class="text-uppercase">Descuentos y promociones. </h5>
                 </div>
                 <div class="is-divider me-auto bg-white"></div>
                 <div class="mail-form pt-3">
@@ -937,8 +1017,8 @@
                       <input type="email" class="form-control" id="exampleFormControlInput1"
                         placeholder="name@example.com">
                     </div>
-                    <div class="btn-subscribe d-flex justify-content-center mt-5">
-                      <button class="btn btn-primary px-5" type="submit">Subscribe</button>
+                    <div class="btn-subscribe d-flex justify-content-center my-5">
+                      <button class="btn btn-primary px-5 text-uppercase" type="submit">Subscribirse</button>
                     </div>
 
                   </form>
@@ -954,14 +1034,14 @@
         <div class="row container-fluid mx-auto">
           <div class="col-12 d-flex justify-content-center">
             <div class="row">
-                <div class="webpay-img text-center">
-                  <img src="img/webpay_logo.png" alt="" class="img-fluid">
-                </div>
-          </div>
+              <div class="webpay-img text-center">
+                <img src="img/webpay_logo.png" alt="" class="img-fluid">
+              </div>
+            </div>
 
+          </div>
         </div>
       </div>
-    </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
